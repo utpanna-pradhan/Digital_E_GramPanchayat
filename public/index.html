@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital E Gram Panchayat</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Digital E Gram Panchayat</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service-card">
+        <h3>Birth Certificate</h3>
+        <button id="birthCertificateBtn">Apply Now</button>
+      </div>
+      <div class="service-card">
+        <h3>Marriage Certificate</h3>
+        <button id="marriageCertificateBtn">Apply Now</button>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Our mission is to bring digital transformation to rural Gram Panchayats,
+        providing efficient citizen services. We strive to make processes easier
+        and accessible for everyone in the community.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Digital E Gram Panchayat</p>
+  </footer>
+
+  <script src="./js/app.js" type="module"></script>
+</body>
+</html>
